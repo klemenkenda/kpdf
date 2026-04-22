@@ -14,6 +14,13 @@ dist/
 *.spec
 *.egg-info/
 
+# Keep reproducible build config in build/
+!build/
+build/*
+!build/kpdf.spec
+!build/version_info.txt
+!build/kpdf-installer.iss
+
 # Test and tooling
 .pytest_cache/
 .mypy_cache/
